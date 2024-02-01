@@ -42,8 +42,8 @@ To capture trends at a quarterly level, calculateQuaterlyAverage categorizes dat
 In summary, the algorithm organizes and summarizes data at hourly, yearly, monthly, and quarterly intervals, facilitating efficient visualization and analysis in the financial analytics web app.
 
 ## Screenshots
-![Alt Text](screenshot/Screenshot from 2024-02-01 11-29-59.png)
-![Alt Text](screenshot/Screenshot from 2024-02-01 11-30-27.png)
-![Alt Text](screenshot/Screenshot from 2024-02-01 11-30-48.png)
+![Alt Text]([screenshot/Screenshot from 2024-02-01 11-29-59.png](https://github.com/mobasshir-07/ChakraInnovationFrontendWorkspace/blob/eaff7f700b3166d759a28a937f5c081d2ccbf07b/screenshot/Screenshot%20from%202024-02-01%2011-29-59.png)https://github.com/mobasshir-07/ChakraInnovationFrontendWorkspace/blob/eaff7f700b3166d759a28a937f5c081d2ccbf07b/screenshot/Screenshot%20from%202024-02-01%2011-29-59.png)
+![Alt Text]([screenshot/Screenshot from 2024-02-01 11-30-27.png](https://github.com/mobasshir-07/ChakraInnovationFrontendWorkspace/blob/eaff7f700b3166d759a28a937f5c081d2ccbf07b/screenshot/Screenshot%20from%202024-02-01%2011-30-27.png)https://github.com/mobasshir-07/ChakraInnovationFrontendWorkspace/blob/eaff7f700b3166d759a28a937f5c081d2ccbf07b/screenshot/Screenshot%20from%202024-02-01%2011-30-27.png)
+![Alt Text]([screenshot/Screenshot from 2024-02-01 11-30-48.png](https://github.com/mobasshir-07/ChakraInnovationFrontendWorkspace/blob/eaff7f700b3166d759a28a937f5c081d2ccbf07b/screenshot/Screenshot%20from%202024-02-01%2011-30-48.png)https://github.com/mobasshir-07/ChakraInnovationFrontendWorkspace/blob/eaff7f700b3166d759a28a937f5c081d2ccbf07b/screenshot/Screenshot%20from%202024-02-01%2011-30-48.png)
 
 
