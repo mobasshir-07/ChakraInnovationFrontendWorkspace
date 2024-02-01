@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# React UI for Complex Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend repository for the web app built with ReactJs and Material UI.
 
-## Available Scripts
+## Table of Contents
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Downsampling Algorithm](#downsampling-algorithm)
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This repository contains the frontend code for a complex web app built using ReactJs and Material UI. The primary objective of this project is to design a user-friendly UI based on the provided Figma design, ensuring adherence to layout, colors, fonts, and components. The entire UI is static, except for the interactive Growth Graph component. The frontend is designed to represent the relationship between profit percentage and time using a downsampling algorithm to handle a large dataset efficiently.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ReactJs and Material UI for frontend development.
+- UI design based on the provided Figma design.
+- Interactive Growth Graph component representing the relationship between profit percentage and time.
+- Downsampling algorithm implemented to handle large dataset efficiently.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone the repository.
+- Navigate to the project directory.
+- Run `npm install` to install dependencies.
+- Run the development server using `npm start`.
+- Access the web app on `http://localhost:3000` by default. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Downsampling Algorithm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The downsampling algorithm begins by reading financial data from a CSV file. It then condenses the dataset by calculating average profit percentages at hourly intervals. This preserves meaningful trends at an hourly resolution.
 
-### `npm run eject`
+Subsequently, the algorithm aggregates data for different time resolutions. calculateYearlyAverage provides a high-level overview of trends for each year. calculateMonthlyAverage extracts monthly averages, offering insights into fluctuations within each month.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To capture trends at a quarterly level, calculateQuaterlyAverage categorizes data into quarters based on month indices. This provides additional insights into seasonal patterns and fluctuations.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In summary, the algorithm organizes and summarizes data at hourly, yearly, monthly, and quarterly intervals, facilitating efficient visualization and analysis in the financial analytics web app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
+![Alt Text](path/to/screenshot.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
