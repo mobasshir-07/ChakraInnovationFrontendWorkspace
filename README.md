@@ -42,6 +42,8 @@ To capture trends at a quarterly level, calculateQuaterlyAverage categorizes dat
 In summary, the algorithm organizes and summarizes data at hourly, yearly, monthly, and quarterly intervals, facilitating efficient visualization and analysis in the financial analytics web app.
 
 ## Screenshots
-![Alt Text](path/to/screenshot.png)
+![Alt Text](screenshot/Screenshot from 2024-02-01 11-29-59.png)
+![Alt Text](screenshot/Screenshot from 2024-02-01 11-30-27.png)
+![Alt Text](screenshot/Screenshot from 2024-02-01 11-30-48.png)
 
 
